@@ -41,7 +41,7 @@ int main(int argc, char** argv)
         fwrite((void*)buf, 1, read_cnt, fp);    // 받은 내용 그대로 파일에 씀
 
     puts("Received file data");     // 수신 완료 메시지 출력
-    write(serv_fd, "Thank you", 10);    // 서버에 감사 메시지 전송
+    write(serv_fd, "Thank you", 10);    // 서버에 메시지 전송
 
     // 종료
     fclose(fp);
