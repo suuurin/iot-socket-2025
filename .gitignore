@@ -417,7 +417,7 @@ FodyWeavers.xsd
 *.msm
 *.msp
 
-# me
+# 실행파일 제외
 *.out
 *.o
 *~
