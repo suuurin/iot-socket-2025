@@ -64,7 +64,7 @@ int main(int argc, char *argv[])
                         fd_max = clnt_sock;
                     printf("connected client: %d \n", clnt_sock);
                 } else {
-                    // 기존 클라이언트의 메시지 처리
+                    // 기존 클라이언트 메시지처리
                     str_len = read(i, buf, BUF_SIZE);
                     if (str_len == 0) {
                         // 연결 종료 요청
